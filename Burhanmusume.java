@@ -4,12 +4,13 @@ public class Burhanmusume {
     static Scanner input = new Scanner(System.in);
 
     public static void header() {
-        System.out.println(" ____             _                                                          \n" + //
-                        "| __ ) _   _ _ __| |__   __ _ _ __  _ __ ___  _   _ ___ _   _ _ __ ___   ___ \n" + //
-                        "|  _ \\| | | | '__| '_ \\ / _` | '_ \\| '_ ` _ \\| | | / __| | | | '_ ` _ \\ / _ \\\n" + //
-                        "| |_) | |_| | |  | | | | (_| | | | | | | | | | |_| \\__ \\ |_| | | | | | |  __/\n" + //
-                        "|____/ \\__,_|_|  |_| |_|\\__,_|_| |_|_| |_| |_|\\__,_|___/\\__,_|_| |_| |_|\\___|");
-                        System.out.println("");
+        System.out.println("    ____             __                                                        \n" + //
+                        "   / __ )__  _______/ /_  ____ _____  ____ ___  __  _________  ______ ___  ___ \n" + //
+                        "  / __  / / / / ___/ __ \\/ __ `/ __ \\/ __ `__ \\/ / / / ___/ / / / __ `__ \\/ _ \\\n" + //
+                        " / /_/ / /_/ / /  / / / / /_/ / / / / / / / / / /_/ (__  ) /_/ / / / / / /  __/\n" + //
+                        "/_____/\\__,_/_/  /_/ /_/\\__,_/_/ /_/_/ /_/ /_/\\__,_/____/\\__,_/_/ /_/ /_/\\___/ \n" + //
+                        "                                                                               ");
+                        System.out.println("Burhanmusume: Pretty Object-Oriented");
     }
 
     public static void mainMenu() {
@@ -61,13 +62,25 @@ public class Burhanmusume {
             String userInput = input.next();
 
             if (userInput.equals("1")) {
-                break;
+                // TODO : Implement Career Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("2")) {
-                break;
+                // TODO : Implement Shop Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("3")) {
-                break;
+                // TODO : Implement Club Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("4")) {
-                break;
+                // TODO : Implement Mission Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("5")) {
                 mainMenu();
                 break;
@@ -89,11 +102,20 @@ public class Burhanmusume {
             String userInput = input.next();
 
             if (userInput.equals("1")) {
-                break;
+                // TODO : Implement Team Trials Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("2")) {
-                break;
+                // TODO : Implement Race Events Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("3")) {
-                break;
+                // TODO : Implement Daily Races Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("4")) {
                 mainMenu();
                 break;
@@ -116,13 +138,25 @@ public class Burhanmusume {
             String userInput = input.next();
 
             if (userInput.equals("1")) {
-                break;
+                // TODO : Implement Support Card Scout Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("2")) {
-                break;
+                // TODO : Implement Pretty Derby Scout Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("3")) {
-                break;
+                // TODO : Implement SSR Guaranteed Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("4")) {
-                break;
+                // TODO : Implement Head Start Scout Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("5")) {
                 mainMenu();
                 break;
@@ -144,11 +178,20 @@ public class Burhanmusume {
             String userInput = input.next();
 
             if (userInput.equals("1")) {
-                break;
+                // TODO : Implement Main Stories Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("2")) {
-                break;
+                // TODO : Implement Uma Stories Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("3")) {
-                break;
+                // TODO : Implement Daily Races Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("4")) {
                 mainMenu();
                 break;
@@ -170,11 +213,20 @@ public class Burhanmusume {
             String userInput = input.next();
 
             if (userInput.equals("1")) {
-                break;
+                // TODO : Implement trainee Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("2")) {
-                break;
+                // TODO : Implement support cards Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("3")) {
-                break;
+                // TODO : Implement Veteran Uma Method. Change to 'break' if already implemented.
+                System.out.println("Coming Soon");
+                //break;
+                continue;
             } else if (userInput.equals("4")) {
                 mainMenu();
                 break;
@@ -186,7 +238,11 @@ public class Burhanmusume {
     }
 
     public static void exitGame() {
-        System.out.println("\nThank you for playing Burhanmusume!");
+        System.out.println("┏┓  •         ┏┳┓          ╻\n" + //
+                        "┣┫┏┓┓┏┓┏┓╋┏┓   ┃ ┏┓┏┓┏┓┏┓┏┓┃\n" + //
+                        "┛┗┛ ┗┗┫┗┻┗┗┛   ┻ ┗┛┛ ┗ ┛┗┗┻•\n" + //
+                        "      ┛                     ");
+        System.out.println("Thank you for playing Burhanmusume!");
         System.exit(1);
     }
 
