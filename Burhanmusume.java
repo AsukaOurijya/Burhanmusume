@@ -24,22 +24,22 @@ public class Burhanmusume {
             System.out.print("Option: ");
             String userInput = input.next();
 
-            if (userInput.equalsIgnoreCase("1")) {
+            if (userInput.equals("1")) {
                 homeMenu(); 
                 break;
-            } else if (userInput.equalsIgnoreCase("2")) {
+            } else if (userInput.equals("2")) {
                 storyMenu();
                 break; 
-            } else if (userInput.equalsIgnoreCase("3")) { 
+            } else if (userInput.equals("3")) { 
                 raceMenu();
                 break; 
-            } else if (userInput.equalsIgnoreCase("4")) {
+            } else if (userInput.equals("4")) {
                 scoutMenu();
                 break;
-            } else if (userInput.equalsIgnoreCase("5")) {
+            } else if (userInput.equals("5")) {
                 enhanceMenu();
                 break;
-            } else if (userInput.equalsIgnoreCase("6")) {
+            } else if (userInput.equals("6")) {
                 exitGame();
                 break;
             } else {
@@ -57,6 +57,24 @@ public class Burhanmusume {
             System.out.println("3. Club");
             System.out.println("4. Mission");
             System.out.println("5. Back to Main Menu");
+            System.out.print("Option: ");
+            String userInput = input.next();
+
+            if (userInput.equals("1")) {
+                break;
+            } else if (userInput.equals("2")) {
+                break;
+            } else if (userInput.equals("3")) {
+                break;
+            } else if (userInput.equals("4")) {
+                break;
+            } else if (userInput.equals("5")) {
+                mainMenu();
+                break;
+            } else {
+                System.out.println("Wrong Input");
+                continue;
+            }
         }
     }
 
@@ -66,6 +84,23 @@ public class Burhanmusume {
             System.out.println("1. Team Trials");
             System.out.println("2. Race Events");
             System.out.println("3. Daily Races");
+            System.out.println("4. Back to Home Menu");
+            System.out.print("Option: ");
+            String userInput = input.next();
+
+            if (userInput.equals("1")) {
+                break;
+            } else if (userInput.equals("2")) {
+                break;
+            } else if (userInput.equals("3")) {
+                break;
+            } else if (userInput.equals("4")) {
+                mainMenu();
+                break;
+            } else {
+                System.out.println("Wrong Input");
+                continue;
+            }
         }
     }
 
@@ -76,6 +111,25 @@ public class Burhanmusume {
             System.out.println("2. Pretty Derby Scout");
             System.out.println("3. SSR Guaranteed");
             System.out.println("4. Head Start Scout");
+            System.out.println("5. Back to Home Menu");
+            System.out.print("Option: ");
+            String userInput = input.next();
+
+            if (userInput.equals("1")) {
+                break;
+            } else if (userInput.equals("2")) {
+                break;
+            } else if (userInput.equals("3")) {
+                break;
+            } else if (userInput.equals("4")) {
+                break;
+            } else if (userInput.equals("5")) {
+                mainMenu();
+                break;
+            } else {
+                System.out.println("Wrong Input");
+                continue;
+            }
         }
     }
 
@@ -85,6 +139,23 @@ public class Burhanmusume {
             System.out.println("1. Main Story");
             System.out.println("2. Uma Stories");
             System.out.println("3. Extra");
+            System.out.println("4. Back to Home Menu");
+            System.out.print("Option: ");
+            String userInput = input.next();
+
+            if (userInput.equals("1")) {
+                break;
+            } else if (userInput.equals("2")) {
+                break;
+            } else if (userInput.equals("3")) {
+                break;
+            } else if (userInput.equals("4")) {
+                mainMenu();
+                break;
+            } else {
+                System.out.println("Wrong Input");
+                continue;
+            }
         }
     }
 
@@ -94,6 +165,23 @@ public class Burhanmusume {
             System.out.println("1. Trainee");
             System.out.println("2. Support Cards");
             System.out.println("3. Veteran Uma");
+            System.out.println("4. Back to Home Menu");
+            System.out.print("Option: ");
+            String userInput = input.next();
+
+            if (userInput.equals("1")) {
+                break;
+            } else if (userInput.equals("2")) {
+                break;
+            } else if (userInput.equals("3")) {
+                break;
+            } else if (userInput.equals("4")) {
+                mainMenu();
+                break;
+            } else {
+                System.out.println("Wrong Input");
+                continue;
+            }
         }
     }
 
